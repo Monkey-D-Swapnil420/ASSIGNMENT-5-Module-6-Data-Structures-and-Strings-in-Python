@@ -1,0 +1,9 @@
+dic={
+    "goku":90,
+    "gohan":100,
+    "goten":42,
+    "trunks":94,
+    "vegeta":60
+}
+name=input("enter the student's name:")
+print(dic.get(name,"Student not found"))
