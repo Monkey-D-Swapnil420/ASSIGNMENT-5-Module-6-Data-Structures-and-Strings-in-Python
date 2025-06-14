@@ -1,0 +1,7 @@
+listt=[1,2,3,4,5,6,7,8,9,10]
+print("Original list:",listt)
+l=listt[0:5]
+print("extracted 1st 5 elements:",l)
+ll=l.copy()
+ll.reverse()
+print("reversed extracted elements:",ll)
